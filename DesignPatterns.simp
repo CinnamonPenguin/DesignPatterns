@@ -1,0 +1,1577 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp18d94ede8b6243539d604d0c9b0ad7b8">
+  <meta>
+    <name>DesignPatterns</name>
+    <authors>roy stobbe</authors>
+    <description />
+  </meta>
+  <counters models="2">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="usage" type="Usage" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>20</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-fd36bbd91229486cae7c2e8422da9941" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>roy</first-name>
+        <last-name>stobbe</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-e8c48cfa9c3141c4be43b75f025afd26" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="CSharp.List_Observer" tid="array" name="List&lt;Observer&gt;" template="{{Name}}&lt;{{?}}&gt;" base-ref="CSharp.List">
+          <template-parameter ref="Observer" />
+        </type>
+        <type id="Class:06d45ce450fc434bbd4211a19d2973e7" name="LibraryBook" class-ref="06d45ce450fc434bbd4211a19d2973e7" />
+        <type id="CSharp.string" tid="string" name="string" nullable="true" />
+        <type id="Book" name="Book" />
+        <type id="CSharp.double" tid="s-real64" name="double">
+          <parameter ref="nullable" value="" />
+        </type>
+        <type id="CSharp.DateTime" tid="datetime" name="DateTime">
+          <parameter ref="nullable" value="" />
+        </type>
+        <type id="CSharp.int" tid="s-integer32" name="int">
+          <parameter ref="nullable" value="" />
+        </type>
+        <type id="CSharp.bool" tid="boolean" name="bool">
+          <parameter ref="nullable" value="" />
+        </type>
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="c72ce1aed22046e3ad167591738dc893" cid="PROP018" type="property" owner="5775734879384a9d8221b576c997a78b" creator="" creation-date="05/30/2023 14:52:50" visibility="private">
+      <structural-feature multiplicity="o ... *" />
+    </item>
+    <item id="ff013fcc47214af99093d058c3e83ce4" cid="PROP019" type="property" name="I" owner="5775734879384a9d8221b576c997a78b" creator="" creation-date="05/30/2023 14:52:50" visibility="private">
+      <structural-feature type="LibraryBook" type-id="Class:06d45ce450fc434bbd4211a19d2973e7" />
+    </item>
+  </items>
+  <models>
+    <model id="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>roy stobbe</author>
+        </authors>
+        <description />
+        <creation-date>05/30/2023 14:44:51</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="7402110c8c0e4e10bcbec71bff3149c7" cid="PKG001" type="package" creator="" creation-date="05/30/2023 14:45:20">
+          <tagged-values>
+            <tagged-value id="tv00eba972793d46f5ad3671f057a448bf" name="namespace" type="text" multiple="false" hidden="false" value="" />
+            <tagged-value id="tv9c3138864a5e4889affedc15a61c360e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+        </item>
+      </abstract-items>
+      <sub-models>
+        <model id="pb33bff57ee35401f90ed25934a5030e1_463923773" name="" namespace="" order-index="2">
+          <meta>
+            <authors>
+              <author>roy stobbe</author>
+            </authors>
+            <description />
+            <creation-date>05/30/2023 14:45:20</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tvaefc4a6f1b8843f389d86b5d23f2b044" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+          <abstract-items>
+            <item id="0500d754902e4898a547f2b52565c226" cid="PROP005" type="property" name="Name" owner="d097add724974b5f95aeafe3726b8479" creation-date="05/30/2023 14:45:20" visibility="undefined">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvbcfb4d7a827b4b1d9ec3252c6650702a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Name" />
+                <tagged-value id="tvc2aefa7c9423452495e82b2661cd1c2d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tvd282a5e7b70c406f9170ada2753d2e0d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Observer.cs" />
+                <tagged-value id="tv397a20aaa0384bdaba8ad9ced9e6eb24" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv514727cb4c534cf08af02858e4b28030" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="52" />
+                <tagged-value id="tv5d575e7c629b4276af67798796c9dc49" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv0b16994e0d644c1fae5ad37385599fc9" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="102" />
+                <tagged-value id="tvdf308efcb71c4da2912ced747168dec2" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="0500d754902e4898a547f2b52565c226_property_c" type="property" ref="" />
+              </stereotype-instances>
+              <structural-feature type="string" type-id="CSharp.string" />
+            </item>
+            <item id="46ee1eef6bba4919b9e4210c707777e9" cid="PROP007" type="property" name="Id" owner="0f8d9604dd674ea2a898876a920ebbaa" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv49752e9cf24b4223811327bf6a34f012" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Id" />
+                <tagged-value id="tv24207b003181457aa21c16ef4adf56bb" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv5cca909e07794105bce96c364f4cf57e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Borrower.cs" />
+                <tagged-value id="tv968b7f15b570482da333770e8d92f2f5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvd3ce25946cd64fc5a94e186fa195d63e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="163" />
+                <tagged-value id="tv7023b17e61fb4f62a021fdcd7433cfa4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="25" />
+                <tagged-value id="tvf79ca2387965443caee2638106513e9d" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="268" />
+                <tagged-value id="tvf37c8d7facc3483fa83b23722eb18157" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="46ee1eef6bba4919b9e4210c707777e9_property_c" type="property" ref="" />
+              </stereotype-instances>
+              <structural-feature type="string" type-id="CSharp.string" />
+            </item>
+            <item id="3f1a0bac7ae24fd39f24f2c6c2b37650" cid="PROP010" type="property" name="genre" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv30aea41afa1548a3acbf593999b3bfda" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="genre" />
+                <tagged-value id="tva455afeae99d47c78a3b0b0a7a1f66ae" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv20645018116f421287b7b332d09daebb" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tvd1fdcfcdb0304eceb25b5eaa56deee61" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv0586475f8b494e1d90ddbd674f381c2a" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="94" />
+                <tagged-value id="tv3d4a575aecc54db896f4358fec4bb956" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="30" />
+                <tagged-value id="tv7fe59df899ac48e1839d10c2b5097425" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tv568f97e13d6d48799fab18872941c565" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="string" type-id="CSharp.string" />
+            </item>
+            <item id="aa8d61d5e17f4ad6b9ff4fa2bebfac8c" cid="C002" type="class" name="Student" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tva23e62dcb4de4b17a042b47f3c54deaf" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv508ab48017084fb6904e027ca732e945" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Student" />
+                <tagged-value id="tv6abe47a548dd4fb7a09aaa59085762bd" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv3c836d5730d244408d521436b395e96e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Student.cs" />
+                <tagged-value id="tv82a3ab8b223e47059a9e79a59047ad46" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvf5a91ceb0d524991b24f6b7a48d745fa" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvd5b54295ca4f4bf1b98e83b5a3fbfea8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="289" />
+                <tagged-value id="tv0ed7426d18894c999e05578a2d38cd23" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="309" />
+                <tagged-value id="tv1793c0a25ba94702a4179d32b1c9f2b1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <operations>
+                <operation id="ofd58271939e448eb9e5abaa2375774d0896" cid="OP003" name="Student" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p5d31f549a38f497eb1e1558aa6d3e00d" name="id" type="string" type-id="CSharp.string" />
+                    <parameter id="pd5b30808556149eb9bfb92fe8e3cf2d0" name="name" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv5e80102f6b5f4a54b240cac3c6627eeb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Student" />
+                    <tagged-value id="tv538b149e8ea3481b89f01ceb050bbbea" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Student.cs" />
+                    <tagged-value id="tva2b254707a8143bf8605f87344fc8a14" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2b5a0b231c5e480c8790053a7378ad9d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="68" />
+                    <tagged-value id="tv1d8ddb351edf4a5dbb7415eeea70015e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="67" />
+                  </tagged-values>
+                </operation>
+                <operation id="o93572b6ce01243209c7cf00b71b89814896" cid="OP004" name="Update" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pa1f1bece9723477b9b6a5d2362f93358" name="book" type="Book" type-id="Book" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv84137dae39b3460d9c5ca1594b0c74c5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Update" />
+                    <tagged-value id="tvef5bbb46c1154bc098f4bf6486761882" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Student.cs" />
+                    <tagged-value id="tved94c5e9b7ba46c0973d30e97a449d8a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv1f049edc79114367814940fa0a095b33" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="141" />
+                    <tagged-value id="tvda04888940cb47cd8956879c1248238a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="166" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        Console.WriteLine($"Student {Name} has been notified that the book '{book.GetTitle()}' is now available.");
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="2c2fe5d33ae148bcb1c4b6b37ea0e141" cid="PROP004" type="property" name="issueNumber" owner="8e86b05ec92640c4a40d050962731227" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv3850bbd86e784d4fa0bb8c9b41e2ee77" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="issueNumber" />
+                <tagged-value id="tvaf801ee5925544d5a4c73236b09e3a7f" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tvbbaa30e6c01648b08bee374c18bc847e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Magazine.cs" />
+                <tagged-value id="tvd0a35ac436b84d9e933db3d8b9165830" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv57a4fdb54d8b4bbf90ff1bff8e7faa42" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="62" />
+                <tagged-value id="tv94e262612d704e70898604b8e462ce94" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="36" />
+                <tagged-value id="tv8faf311b885c4af4a9d562d4ad2eeac8" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="420" />
+                <tagged-value id="tv27861fadab934f2ba28e2e890e3edaac" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="string" type-id="CSharp.string" />
+            </item>
+            <item id="55f2ebe03b504836a05ed44ec0f491a2" cid="C004" type="class" name="NovelFactory" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tved1294c8309d47eab61acbffbfb1836c" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvc03847b10a38498196d51bfbb0284d64" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NovelFactory" />
+                <tagged-value id="tv917047726ca24932a9bf5732147da668" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv33ed4c01a96d490b9b2c2f94ad89ae88" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\NovelFactory.cs" />
+                <tagged-value id="tvff3837526ad84556bfcc82fd64902ad8" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv7eab79d3190e4b8ea63e5f515ae8c845" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvec8a4d6aa3714de6a0586a592c28d0b5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="233" />
+                <tagged-value id="tvda1f3a0a57d840c0b3276ff9db0ca1ca" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="256" />
+                <tagged-value id="tv46259b05fa7c4473b10069d718ba228c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <operations>
+                <operation id="o64fd90dd73d4476cadfbe081dfcbceb6898" cid="OP007" name="CreateBook" creation-date="05/30/2023 14:45:20" type="Book" type-id="Book" visibility="public">
+                  <parameters>
+                    <parameter id="p68ef92dc08614baebc25ff68b2a75cbb" name="title" type="string" type-id="CSharp.string" />
+                    <parameter id="pb2da2bdb39d04ddc989a4d7b3cc983f4" name="author" type="string" type-id="CSharp.string" />
+                    <parameter id="p974dfc57ba884a50b2ae2997364c027d" name="genre" type="string" type-id="CSharp.string" />
+                    <parameter id="p2bae972614b440dfbe63e2bf475da071" name="publisher" type="string" type-id="CSharp.string" />
+                    <parameter id="pa8e5e9a08ac0454ba9ff77e9895d6a04" name="publishedDate" type="DateTime" type-id="CSharp.DateTime" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv0498c99511a54beca1ef86ca1821d409" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateBook" />
+                    <tagged-value id="tvba1d021f4b344fcfb2dadec9237b34cc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\NovelFactory.cs" />
+                    <tagged-value id="tva11f29d88bcf449eadc37aaebb76a80c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv539c1734784d4432a50139083b5d05a1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="52" />
+                    <tagged-value id="tv2db02ec12937445f8de92f6cbdd41074" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="199" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return new LibraryBook(title, author, genre, publisher, publishedDate);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="bf2045f09a304fa5950e58dcc588209c" cid="C008" type="class" name="NullStudent" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv552b4c398adf477abc11bda054bf2d2e" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tve24294f21bfb435cae9cbc442776a288" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NullStudent" />
+                <tagged-value id="tve5e71b2b90924a1db48440f13455f664" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv3dd6c5845685489586853261cb6ebbdb" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\NullStudent.cs" />
+                <tagged-value id="tvb14bdd210aa5413d8dffaba0046b6a75" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv220e4079e5234fd8b8558bcb1446b017" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvf940ea25449b448ba1ec867efd8d2080" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="114" />
+                <tagged-value id="tv82c716946366468191d8064fc67cdb0f" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="134" />
+                <tagged-value id="tv6153dea3a60a47e58a520b0d86d9089f" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <operations>
+                <operation id="o2712aa3670334513801e6288aaefd9b9901" cid="OP030" name="NullStudent" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p48dd511f6b704ed49b9ce09ec5dfc9dc" name="id" type="string" type-id="CSharp.string" />
+                    <parameter id="p48c0af66e2914f5481cfc907c4a7d6a4" name="name" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvb510b3e19f28454fa686c4365a9aff70" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NullStudent" />
+                    <tagged-value id="tvff243e00f45a45b69580d7cd82a92ff5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\NullStudent.cs" />
+                    <tagged-value id="tv4094efe39462404c94ff239cb5320a05" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tva7501b002c4c4c0382bf415959a75a2f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="61" />
+                    <tagged-value id="tv26038853ed5541af800f010c8bc2ccc9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="71" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="817652300f2d4e76877055f393aec4b9" cid="C001" type="class" name="BorrowingPeriodExtensionDecorator" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvdd8b68503e2347259c31a3bc561b7b46" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvefcf16f5ce614c1393e1c2e6ad5eb753" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowingPeriodExtensionDecorator" />
+                <tagged-value id="tv31011bd7ee3045e5aa42c476968d24b1" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tve73ba097fd7e47f484ed81602472008c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BorrowingPeriodExtensionDecorator.cs" />
+                <tagged-value id="tvc2489525028b434b8cb0d26c1642a0a0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tve01c6821122a47ca921eaff723b1a2cc" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv99539494ea8b4190974e7c75365c018c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="467" />
+                <tagged-value id="tvbd6e0ac55bdd48c38a1d37703a7726b9" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="490" />
+                <tagged-value id="tv488cb4abb2364165a447be72f688609f" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a5e885a3d82d44d0d833ca53ededd26f1888" cid="PROP001" name="extentionDays" creation-date="05/30/2023 14:45:20" property-ref="bc04e30acd3948e380d6e9389193d507" />
+              </attributes>
+              <operations>
+                <operation id="o0b841048cd784c0995699b891ce00df5891" cid="OP001" name="BorrowingPeriodExtensionDecorator" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pa9a8378146fd40169e46dd171a72ba95" name="book" type="Book" type-id="Book" />
+                    <parameter id="pcd68d449ade042a0b500d2e925ee6932" name="extentionDays" type="int" type-id="CSharp.int" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv04bc8b36ee154f37b6f07518a5c9d558" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowingPeriodExtensionDecorator" />
+                    <tagged-value id="tva6ee1a842e1141f19ff04e69327a6bef" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BorrowingPeriodExtensionDecorator.cs" />
+                    <tagged-value id="tv81d1b02766864538853c7d04f751995b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvc26fbfc8ea1b40948c8fd8579d19c46b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="121" />
+                    <tagged-value id="tvdb007f18c11243ea952c7c8d202be759" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="139" />
+                  </tagged-values>
+                </operation>
+                <operation id="od4e0f50aed60488ea5ccdd7fff3e9ad3895" cid="OP002" name="BorrowBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv01c998b6633144d59472af9e9dd69464" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowBook" />
+                    <tagged-value id="tv0a13cc0c88f5417ab52dbf657bda7258" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BorrowingPeriodExtensionDecorator.cs" />
+                    <tagged-value id="tvd9ff7fdd8c9042a3940684fd11260553" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv862423acbf184df88db723edc7c82f0e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="266" />
+                    <tagged-value id="tvbf3a0d1c04ef4b84a30d942d24823668" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="219" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        base.BorrowBook();
+        var newReturnDate = DateTime.Today.AddDays(extentionDays);
+        Console.WriteLine("Return date has been extended to " + newReturnDate);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="9834f994232e418ba0a9ca7e67d07580" cid="PROP013" type="property" name="publishedDate" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tva951238753dc491a9ec62be977911ea3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="publishedDate" />
+                <tagged-value id="tv7f9308942b714edcb87d87eef6c0f02e" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tvf8b891d30c764f52afa64648e787b7bf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tv5c139b4ff8ad475e875df8458784ea21" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv7868c3539029448288f5671bbc321d0d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="196" />
+                <tagged-value id="tv65c849a2f14e4d4d9bdf3634707347a4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="40" />
+                <tagged-value id="tv2e3a967e77064553854cc764b99c9ae8" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tvd19fa668e8934ab09f52458356c1405e" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="DateTime" type-id="CSharp.DateTime" />
+            </item>
+            <item id="d3d04edaf05b4b2b8b2440cc79bc6356" cid="PROP002" type="property" name="Name" owner="82771cd17fa04186b963c6200f722c92" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv26ab552e7933450cb50559049345d6b8" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Name" />
+                <tagged-value id="tv0c16b6d1098e4ab88a3c21d8c9882562" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv8eaa7e83f55640de92daacf2499da474" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryStaff.cs" />
+                <tagged-value id="tvc18c57652e284be397dedc2adc3bfab1" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv5bab1da8eff54fb8a6b3df980e6e464b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="134" />
+                <tagged-value id="tva4eeab1004964e90baa933d8797f8f57" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="27" />
+                <tagged-value id="tv6a5ba038a97f47459658c79065c90859" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="345" />
+                <tagged-value id="tv5e854a8b59dc476bb893820f6fea3480" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="d3d04edaf05b4b2b8b2440cc79bc6356_property_c" type="property" ref="" />
+              </stereotype-instances>
+              <structural-feature type="string" type-id="CSharp.string" />
+            </item>
+            <item id="bc04e30acd3948e380d6e9389193d507" cid="PROP001" type="property" name="extentionDays" owner="817652300f2d4e76877055f393aec4b9" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv987a19bf2962487f83defb580d18d404" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="extentionDays" />
+                <tagged-value id="tvfe88f0e7068040de87e5907c05579478" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tve4c9dfb670134dfbab04d9a5af053084" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BorrowingPeriodExtensionDecorator.cs" />
+                <tagged-value id="tvfc5bc4bc58f14a80bd4de34fb1cf8e4c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvfb54244d91ef4e91969d612d7b2cbd46" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="89" />
+                <tagged-value id="tvb7795b79f74447e9987dab3aa35f8e1f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="26" />
+                <tagged-value id="tv678dc2ec7d004b2791c900755ef595c9" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="490" />
+                <tagged-value id="tv07d238ec53e4401288dab0c4e666a2f9" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature type="int" type-id="CSharp.int" />
+            </item>
+            <item id="e1b7a608268b428198471d25b0d2409e" cid="C009" type="class" name="LateFeeDecorator" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv847bbe44822f42ce9ac08b4a1afbaec2" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv401aaf18bf1d43749c7eaec9bfd1c833" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LateFeeDecorator" />
+                <tagged-value id="tvb6d6c5548eea4f16b66b9cbc94725230" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tvb6a50c30f4d24449aa6028fd1bd95069" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LateFeeDecorator.cs" />
+                <tagged-value id="tvb5c51ea96a8143cc803f5667e6034e15" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvd6dd28ef4e8943d9bf253ddbe9aaf92e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvc88b39d7ff004d209123880728e97471" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="324" />
+                <tagged-value id="tv74eac68dd783415cbf5e9b456d840fa0" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="347" />
+                <tagged-value id="tv80712c9c089d409a8114423f200cad6e" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a217e6590b068448198b1380479e0c948901" cid="PROP006" name="lateFee" creation-date="05/30/2023 14:45:20" property-ref="6baf05eed4ef42d4afe1630b03d15eb1" />
+              </attributes>
+              <operations>
+                <operation id="ob7606ba110f94216a220c32974e23bb9901" cid="OP031" name="LateFeeDecorator" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pfe9332e756cb49f48844911a129a836f" name="book" type="Book" type-id="Book" />
+                    <parameter id="p72c1654124fc412f969f4c3afd58581d" name="lateFee" type="double" type-id="CSharp.double" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvab8debac98a243b3954ec38bd8ba635a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LateFeeDecorator" />
+                    <tagged-value id="tv3c01932efbef40dcb74ed91f90f5bafa" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LateFeeDecorator.cs" />
+                    <tagged-value id="tva828299739794c4482720a005641e016" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9d2c768264ff4107b04618a20f7ec1c9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="100" />
+                    <tagged-value id="tv8e020b91fbc742388f4a21c818b75923" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="107" />
+                  </tagged-values>
+                </operation>
+                <operation id="o0cb192adffb8416cb54245fdd489e192901" cid="OP032" name="ReturnBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv4a369a8b9d2444d989fe760a224528c9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ReturnBook" />
+                    <tagged-value id="tvdcb62b5ebb3142dcb933b0ad42b555ed" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LateFeeDecorator.cs" />
+                    <tagged-value id="tve2107ff24d3b48d98af58f8bcfc3a463" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv85b430dbd3a0408596b9c824c1c11332" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="213" />
+                    <tagged-value id="tvb4a7b83e5ba94dea91d609597b733fbe" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="129" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        base.ReturnBook();
+        Console.WriteLine("Late fee charge:" + lateFee);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="3bc500f812514b539c9e8b762e9dff5d" cid="REA004" type="realization" creation-date="05/30/2023 14:45:20" from="0f8d9604dd674ea2a898876a920ebbaa" to="d097add724974b5f95aeafe3726b8479">
+              <tagged-values>
+                <tagged-value id="tv379567cb479f4aef8c5cb9b75958cd68" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="cf1ee74dea854f11a7b0cf11c96e5dec" cid="PROP008" type="property" name="Name" owner="0f8d9604dd674ea2a898876a920ebbaa" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="property" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv65bc6b5f37dd48d781f3533319758709" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Name" />
+                <tagged-value id="tvc84d61726332449d9bc8444300d44a0b" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv8d53f0859ce74c57849d448cca8e09f6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Borrower.cs" />
+                <tagged-value id="tvf00564066d2e48aa8b7392f953c58b7c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv7ef48c98ed1049c7a0cd5cc53e57bc7f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="194" />
+                <tagged-value id="tv8cd3746f67844530a3b799567998c9f8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="27" />
+                <tagged-value id="tv82ad89f5670f4ac7b4c1f4599ae63b1e" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="268" />
+                <tagged-value id="tv24fd932d268c4753b20753f3602e971b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="cf1ee74dea854f11a7b0cf11c96e5dec_property_c" type="property" ref="" />
+              </stereotype-instances>
+              <structural-feature type="string" type-id="CSharp.string" />
+            </item>
+            <item id="96da3f811be64f04ad9b4a7d6730cc8c" cid="PROP003" type="property" name="book" owner="398de08034354f1f91b26ec0d53b0c41" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv9364e4bfed0e43bc81cef475b402a1e1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="book" />
+                <tagged-value id="tv74018e89dca84720a274bbc2de7965c9" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv1a6d92af3c9f45659115ed9fb2b3fbe6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                <tagged-value id="tvc141d316e54d4ece9517f773b7632fcc" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvce111b011c694158952fde072fa9df90" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="69" />
+                <tagged-value id="tv82c579dc241947a8b0cda2ff34e7070a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                <tagged-value id="tv897d53b5d48042ac8d25dd5c9b164754" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="797" />
+                <tagged-value id="tvd1fe81d870634790ae1251742a7b3fc8" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature type="Book" type-id="Book" />
+            </item>
+            <item id="82771cd17fa04186b963c6200f722c92" cid="C003" type="class" name="LibraryStaff" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv1ac12fb6fb4744e2b20fadf11fda18f6" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvaecf06e2408f42039f5e22424bd082b6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LibraryStaff" />
+                <tagged-value id="tv5e4c737d2c8d4b8ebe849c349bd85c20" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv321f8e5812eb4d9db305d6ee092bdaaa" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryStaff.cs" />
+                <tagged-value id="tvbe009245909a4465b1ec29d91523813b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv2b3cc6d597ea41738a13381c58275b03" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv23cad7cb9bba46bcb99e3ebf4b39908f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="325" />
+                <tagged-value id="tvd33e106b5ba64f07b9f3de7fd64d7cc4" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="345" />
+                <tagged-value id="tv11f5e341878e470abb35544abf43e0d3" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="ade84269da8104763a7543c759bb10fea898" cid="PROP002" name="Name" creation-date="05/30/2023 14:45:20" property-ref="d3d04edaf05b4b2b8b2440cc79bc6356" />
+              </attributes>
+              <operations>
+                <operation id="o2108409792c140e0be634dcaef268c47896" cid="OP005" name="LibraryStaff" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p13787bde27f2426fab9deb033b0ba493" name="name" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv33406d7d37904a5da1f698666e4f86f6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LibraryStaff" />
+                    <tagged-value id="tv173e9781d619459a88c16fbf1ea6025c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryStaff.cs" />
+                    <tagged-value id="tv36c6a316fe5c4f788c4f8195b3688717" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv8ebdd6dc04224f25b7e165e6e72bc8e7" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="63" />
+                    <tagged-value id="tv60c70391344c4b57a1e7a7776778997e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="65" />
+                  </tagged-values>
+                </operation>
+                <operation id="oe16f6e688cee405d9f8c5bfe46c2bc41898" cid="OP006" name="Update" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p7b83138f39df4853929857d0f19a382e" name="book" type="Book" type-id="Book" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv3b30484162b64d9fa1c9680410652e91" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Update" />
+                    <tagged-value id="tvb8e5c4fb3ccd49cb879c92fe81d94abb" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryStaff.cs" />
+                    <tagged-value id="tvb7713bc09c244300baab0cd858f75ed4" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv94c9a121eae74314bab66921a077fac5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="167" />
+                    <tagged-value id="tv64d268b755c04f83aae7deb56df1b797" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="176" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        Console.WriteLine(
+            $"Library staff {Name} has been notified that the book '{book.GetTitle()}' is now available.");
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="db55a1f65c514241b766e53b1dd496e6" cid="PROP012" type="property" name="observers" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tva325fb7b83864130b1b30ae9a81ad9b1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="observers" />
+                <tagged-value id="tv64d93f27625c4a0db008f2fa26841b2b" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv2bcb5601e14e47ccbed47fe84c68f8ae" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tve25f85591a2c4015b64b7b2f3f8cea94" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv362d471cbc8d45be8b4ae09c88a86593" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="158" />
+                <tagged-value id="tv5428db396b664d82b7feef1b7f02213c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="33" />
+                <tagged-value id="tv30626bc3a7394159a460ed51effb2fb9" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tv14eb29f9835c4de8b04c4ef06345e730" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature type="List&lt;Observer&gt;" type-id="CSharp.List_Observer" />
+            </item>
+            <item id="aa3dda6d9c944282a7ddce4810f7366e" cid="GNR003" type="generalization" creation-date="05/30/2023 14:45:20" from="8e86b05ec92640c4a40d050962731227" to="06d45ce450fc434bbd4211a19d2973e7">
+              <tagged-values>
+                <tagged-value id="tv5bbc0b8f8a5a4f3da6d9c71c03a96eb5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="ffe0756e5b734fa3b699d85fef7523e5" cid="REA002" type="realization" creation-date="05/30/2023 14:45:20" from="82771cd17fa04186b963c6200f722c92" to="d097add724974b5f95aeafe3726b8479">
+              <tagged-values>
+                <tagged-value id="tv38af1cc445ae49d0b19e54b4697626d0" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="06d45ce450fc434bbd4211a19d2973e7" cid="C012" type="class" name="LibraryBook" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv1f2611239260457ba42c2a7ca11a3c25" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvd66728b123a4434e8c8ce14c1556c85c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LibraryBook" />
+                <tagged-value id="tv4c51a7562b2d403c86751c4f88bdd6d6" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv23ab31fcee384b6a8f11f1f6fe4572c3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tv811500d6d6b44d208a9509ff296cddcd" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv6d009e4614984f94b9684f100b8ee198" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv51675f8b87f3423da204ac9c28bc867a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1799" />
+                <tagged-value id="tv8dda69b420c24fd7a2c25baf14eb56f1" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tv289edd0b316a408b979c2dc56c60c789" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a39269635685844918359b31bc4ddea71901" cid="PROP009" name="author" creation-date="05/30/2023 14:45:20" property-ref="ac9ab4542ad345958d691099d159421c" />
+                <attribute id="a44366cce23ea4788a1351228284c9542901" cid="PROP010" name="genre" creation-date="05/30/2023 14:45:20" property-ref="3f1a0bac7ae24fd39f24f2c6c2b37650" />
+                <attribute id="aa9b7741f25074958a6700b5821790fae902" cid="PROP011" name="isBorrowed" creation-date="05/30/2023 14:45:20" property-ref="f4f4c49f0af24c4795ee745b83ee91ce" />
+                <attribute id="adf91662ec43e40f4a395e64dcde25ad3903" cid="PROP012" name="observers" creation-date="05/30/2023 14:45:20" property-ref="db55a1f65c514241b766e53b1dd496e6" />
+                <attribute id="abc1458da381c4bab9ffa9275e5e16b30904" cid="PROP013" name="publishedDate" creation-date="05/30/2023 14:45:20" property-ref="9834f994232e418ba0a9ca7e67d07580" />
+                <attribute id="ac7780ec39db2425cbd916c9e63c5ea70904" cid="PROP014" name="publisher" creation-date="05/30/2023 14:45:20" property-ref="26afcb15837c43fa9cf03ecb4d6ab629" />
+                <attribute id="a99214c385faa49f8b0dac84fd87d5602904" cid="PROP015" name="title" creation-date="05/30/2023 14:45:20" property-ref="64632b58b2dd46b3a227f301663a83b2" />
+              </attributes>
+              <operations>
+                <operation id="oa48b883ba1ad48989a09a47c94499802905" cid="OP036" name="LibraryBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p577db5e835d040eeb56ebca2e8ce638c" name="title" type="string" type-id="CSharp.string" />
+                    <parameter id="p14aa632a7fdf4543a79c102cf8dbd362" name="author" type="string" type-id="CSharp.string" />
+                    <parameter id="p301d2fe61b934e9db9fbfda5c9b17e4a" name="genre" type="string" type-id="CSharp.string" />
+                    <parameter id="pda0db824c3544fa3a2c9e1eed7c4fabb" name="publisher" type="string" type-id="CSharp.string" />
+                    <parameter id="pe6f2436a89aa47639d1544e6b4726dd5" name="publishedDate" type="DateTime" type-id="CSharp.DateTime" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvca3b9fc0662f469f95540a913c47938d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="LibraryBook" />
+                    <tagged-value id="tvec020c1a299941b783d682802fbb455e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tvd753f3c8b2a74c1991953853cc1526e5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9303c0db036744fb94cf0c16b4a25be6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="316" />
+                    <tagged-value id="tv9ec425eebb3043c7a573b7ff54729666" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="351" />
+                  </tagged-values>
+                </operation>
+                <operation id="o99abfb06c2024b73912cc9d3342576b2905" cid="OP037" name="GetTitle" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv7ef52b751bbf43599d075bcf03693ac7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetTitle" />
+                    <tagged-value id="tv433a6665fbb1407f84f23d183781fd14" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv69e4f7fcaff140c5af391ec6bbd79395" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv124279f402464e4c84e75ea07db66e80" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="673" />
+                    <tagged-value id="tv061cbaefaa16451d8d49c5969652ab3f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="58" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return title;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="ofad35329140b4c459faa31a78e2b58d2905" cid="OP038" name="GetAuthor" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv01254da1ec954ac2bcf87835743e3f54" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetAuthor" />
+                    <tagged-value id="tv5fc12866b70844efbb7de238fa276f72" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv7f6db9451b244ce3b7d3a90bc25ad393" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvb5c9b5edfbb44f0f9142ea49a141f3f1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="737" />
+                    <tagged-value id="tv1d0b9571541f447c8bbfd10ecd79835b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="60" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return author;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o18942874655549fda5ebf41573d753a9905" cid="OP039" name="GetGenre" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvf9513a953df34672adccf56b0834ccae" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetGenre" />
+                    <tagged-value id="tvea7d51df9cc746b6828d2eac7a63a65d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv957608364ce14b3b9d77e2d504bf901d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve1d160780f52476d8bd4ff41158a1ccd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="803" />
+                    <tagged-value id="tv89e332ee960a4817968d7bba39fcc96f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="58" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return genre;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o61835a5239ef493bb5175962022c9c7d905" cid="OP040" name="GetPublisher" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvb47f44563b4c4a58953ec68cd5fa43a9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublisher" />
+                    <tagged-value id="tv00b86859b6894d5dbdfce45d9ec5c45f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv3fdfa11e327046a9923a41353fcf80cd" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv17e92e19d3fc4c878f7b93f90e2a3d57" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="867" />
+                    <tagged-value id="tv435b34b9139842ff9646aa5c8b293aae" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="66" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return publisher;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4f2ae225be874f12b298ae83d74e4edc905" cid="OP041" name="GetPublishedDate" creation-date="05/30/2023 14:45:20" type="DateTime" type-id="CSharp.DateTime" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvd8c5651593b448aeb5e12c70f3205812" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublishedDate" />
+                    <tagged-value id="tve23b31a65a7e4ababc4799197b973dc1" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tvfce70e1fb57f40a5a15033071680e2dc" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tva1c231f02f7f48e28d9cd3ee1657ff35" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="939" />
+                    <tagged-value id="tve590291c0d6249e7b589b2167754b217" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="76" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return publishedDate;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="of6885bad348440dc9a3f18ae37c43163905" cid="OP042" name="IsAvailable" creation-date="05/30/2023 14:45:20" type="bool" type-id="CSharp.bool" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvf3a7bb80579346cdab5368449af56693" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IsAvailable" />
+                    <tagged-value id="tve6def8471a1c4f8a8709c3f4dd8f3ba8" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv2f27744fcd174428868876eb6a13ffa9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv565b0c773c8e4b39a9435aa01e7a8efc" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1021" />
+                    <tagged-value id="tvf39849a442fc4da5ae5f20a64837e33c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="65" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return !isBorrowed;
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o1dcd39d0f599493c8d15d341770282f4905" cid="OP043" name="BorrowBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv312f841ea8a0402e9c1b3cd028e3604d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowBook" />
+                    <tagged-value id="tvd7108232ec1f4bafbd5cd870b6d9ed52" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tvfb0df45256c74ed38572ce4ada543f57" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv8df93a2fe0c54a22bbac9aad571746b6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1092" />
+                    <tagged-value id="tv7b4c19fd8ea34752bcf8856868f60f02" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="170" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        if (!isBorrowed)
+            isBorrowed = true;
+        else
+            Console.WriteLine("This book is already borrowed.");
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o3ec653af07074192905c2a651b98890e905" cid="OP044" name="ReturnBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv44172d5d1ea14e3eadcfe60b47698020" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ReturnBook" />
+                    <tagged-value id="tve9bb2b5cb8e24557bef1122e45f5d0d8" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv87154fa1b4e045c1808884b6d292448f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5c11c40295fd4d01bc4669f6f66f3f1c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1268" />
+                    <tagged-value id="tve4fc4cb1f69b484aa3344c1215403842" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="237" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        if (isBorrowed)
+        {
+            isBorrowed = false;
+            NotifyObservers();
+        }
+        else
+        {
+            Console.WriteLine("This book is not borrowed.");
+        }
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4be688f2df03462fa2e9df136f186f96905" cid="OP045" name="RegisterObserver" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p814bab98c83d4fb7a3d0402ef2201336" name="observer" type="Observer" type-id="Observer" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv712d7f290d5f4c2daad7ea8963219fea" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RegisterObserver" />
+                    <tagged-value id="tva1f7783c684f44ca84c74c0d96f4c80d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tvff8ef7a72eca4cd7854f5bb0fd7d5a5e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv22eea36e6d4f4cfb8be84f7fe1827b4e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1512" />
+                    <tagged-value id="tv0afae66a15bd40739084360ea0d3d7db" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="92" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        observers.Add(observer);
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o0103f0ef890246cb83d70817b9aba388905" cid="OP046" name="RemoveObserver" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pcaa4e45886124ee9b38ba6ada5cdda2f" name="observer" type="Observer" type-id="Observer" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv8badacc311274b68889e8caf68f29303" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RemoveObserver" />
+                    <tagged-value id="tv63e0b7cf52504dd0bef703ecefcb4276" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tv1a1bb2260ed7422e8e76cec0c5b49d5a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv29a7b0b600884b1f8cb9b6af8fb5690a" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1610" />
+                    <tagged-value id="tvc3441613e324455d84ff319b4f04c50d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="93" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        observers.Remove(observer);
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o5c3da87c1d07447592157d654248f3ed905" cid="OP047" name="NotifyObservers" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tva4125fa30aaa4818904a322e5a40336f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NotifyObservers" />
+                    <tagged-value id="tv07a94d96d2014843a0f8b0bffb0d65d0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                    <tagged-value id="tvea0ae08bef8e4f80bd6ca1ebe564c149" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv0fa0636f2ccb464da3f627f208ab58da" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1709" />
+                    <tagged-value id="tva7250505d5594daab80fe50bd192e976" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="108" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        foreach (var observer in observers) observer.Update(this);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="6baf05eed4ef42d4afe1630b03d15eb1" cid="PROP006" type="property" name="lateFee" owner="e1b7a608268b428198471d25b0d2409e" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv08f6652cd92042b689bb1ffeb0ba85c7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="lateFee" />
+                <tagged-value id="tv9088d60fff7f4a41a5da4c5919ffbed5" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv2eb5cfdf6ee14af882bcb8e049986e5b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LateFeeDecorator.cs" />
+                <tagged-value id="tv10ed1dee79c7419f929bceaef873711d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tve46483a0fd394e7492379a0458c44e6d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="72" />
+                <tagged-value id="tv2054024063c741189c52fa1899007a0c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                <tagged-value id="tve0271ea82da24ed1975668b1ef3ee161" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="347" />
+                <tagged-value id="tv36c6951d1b6a4b1fb57adb81169b883a" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature type="double" type-id="CSharp.double" />
+            </item>
+            <item id="eca8970142d448178969360b2d788115" cid="REA001" type="realization" creation-date="05/30/2023 14:45:20" from="aa8d61d5e17f4ad6b9ff4fa2bebfac8c" to="d097add724974b5f95aeafe3726b8479">
+              <tagged-values>
+                <tagged-value id="tv2e029c79461e4bc880311a55c24a6a9f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="1e56ead40c0c431eaf73dc6abc0a6c99" cid="C007" type="class" name="MagazineFactory" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv62fb5f4a558b4c37a571693447a085ec" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tve87038ddcba14a4198316e4376e071a1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MagazineFactory" />
+                <tagged-value id="tvc567fc251b2841e2a72190137c570a92" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tva3122f6ec3914fc5a79902d43a4baf9e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\MagazineFactory.cs" />
+                <tagged-value id="tv2fff284c288a4bf1bee233a4d54a18a0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv61065f26ba5f45988300a13b8cc30fa1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvd4c24f12a03e43c8bcf9c41449dc7745" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="266" />
+                <tagged-value id="tv53e613f99a284487ba184b19d760ac21" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="289" />
+                <tagged-value id="tv9b6dcf3dc7094ba6a2255b7a77f04238" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <operations>
+                <operation id="o92cbd684db504d9a8d9b432ef1f74373900" cid="OP028" name="CreateBook" creation-date="05/30/2023 14:45:20" type="Book" type-id="Book" visibility="public">
+                  <parameters>
+                    <parameter id="p9730d028c57c40e5951bd9ff77276a2c" name="title" type="string" type-id="CSharp.string" />
+                    <parameter id="p4455156c3c0e4ba0ad8b18a2b78eab1f" name="author" type="string" type-id="CSharp.string" />
+                    <parameter id="p75b8514bd3c642a8b4289f55e68d7d66" name="genre" type="string" type-id="CSharp.string" />
+                    <parameter id="p2a3c1a29a63f403abfebad6caf9bf587" name="publisher" type="string" type-id="CSharp.string" />
+                    <parameter id="p70d216adf1864d2bbbf093d76ca12bbb" name="publishedDate" type="DateTime" type-id="CSharp.DateTime" />
+                    <parameter id="p27d17780501a4049814b46a07082e308" name="issueNumber" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv2463557e512041879765a3b6d1fec863" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateBook" />
+                    <tagged-value id="tv65bba6421cb24e93a384bf13092a1451" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\MagazineFactory.cs" />
+                    <tagged-value id="tve8264fe5c5254cc2aa8a2461a0341f6a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv61496c617dc644aebb27af3bf8f84408" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="55" />
+                    <tagged-value id="tv78b15a6d3cde4069bdc5b16982288465" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="229" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return new Magazine(title, author, genre, publisher, publishedDate, issueNumber);
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="ff77e404b8d44e9182890274fb6cf21b" cid="I002" type="uml-interface-classifier" name="Book" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvf9c4cab805f8440484d71ad99fa06522" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv8f49050509e74f1696eb8355befb6296" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Book" />
+                <tagged-value id="tv97e13ce2e38b47a287375ea3feb3facc" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv64e235f99ed34e6ea8a259a4e82c4ada" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                <tagged-value id="tv785b951ed3de491aa020a08a105b95b7" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvfc8869ab87604d74bcf48ed6d49b871d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvede69bf64ee744609c3c9dda7a9348f0" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="225" />
+                <tagged-value id="tvd1c4164499334d1ba1b74a5aae9fd617" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="248" />
+                <tagged-value id="tvf26644c506f44b55994d1c0ad054bafc" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="ff77e404b8d44e9182890274fb6cf21b_interface_c" type="interface" ref="" />
+              </stereotype-instances>
+              <operations>
+                <operation id="o46f175a0fd8a4153b0ff5ecd6409fd1b900" cid="OP020" name="GetTitle" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv8470c877539849d2a5a5859d185d9cda" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetTitle" />
+                    <tagged-value id="tv2340b4b096e740dbba5660a8aa24821b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tvd1773821776042f98c3cae2f8d9df79b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv74f0d2793de64014813d8af29129fac3" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="48" />
+                    <tagged-value id="tvd913e52459fc4373a26628bab2dbec96" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                  </tagged-values>
+                </operation>
+                <operation id="odbd750b012d24b60bc7061c9d25c1e15900" cid="OP021" name="GetAuthor" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tvcf3b7cb1d7a3444bb68d193c9c2eb91a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetAuthor" />
+                    <tagged-value id="tvc8a6d8316ab34efdb84d7b47597d42fe" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tv87eb0176e39441de9271bb3a01512cba" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv33121fa91a5a421abaf58c3c0333b954" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="71" />
+                    <tagged-value id="tv487550e7cc254e30984fd361fd51b2db" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="19" />
+                  </tagged-values>
+                </operation>
+                <operation id="o75b86834061543a0a8b49dc73244dea8900" cid="OP022" name="GetGenre" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv6e332c9c893c4e2e956322595b88e5bf" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetGenre" />
+                    <tagged-value id="tvcaa9552946c44f74a0b699c67e26088b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tv5153b324943444a99e364541d53c29b8" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv1e030d780d324fdc9137f60dbaed6e15" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="95" />
+                    <tagged-value id="tv0848af55237e4ac2bf99b167f728ac5f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                  </tagged-values>
+                </operation>
+                <operation id="oe995c172a10e4fed9c6448185ac1296a900" cid="OP023" name="GetPublisher" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv7a256a9b2cb34d95bbb13e9e7a0f88d5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublisher" />
+                    <tagged-value id="tv0023d103ba4f4f57b5d4892813797712" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tve8064f428df3417bb44a8ae35840857b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve3a7476d2acb436aa484427af0b8ae60" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="118" />
+                    <tagged-value id="tv450f23e33a174671a9ffdaac996634f4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                  </tagged-values>
+                </operation>
+                <operation id="of9ead2b52f6042d7a07da478d737dd94900" cid="OP024" name="GetPublishedDate" creation-date="05/30/2023 14:45:20" type="DateTime" type-id="CSharp.DateTime" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv23e6a45f60c24d17827a7d179c5977d6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublishedDate" />
+                    <tagged-value id="tv43713f344c664ba09a7e0c218ded6c79" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tva64afdd086744779b34efbc4f842ccac" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvb330920cf87b4e038a9269e7493d4f97" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="145" />
+                    <tagged-value id="tv28221e9471fa4ce8849444f533a73307" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="28" />
+                  </tagged-values>
+                </operation>
+                <operation id="o072dcb76e8604ab99b87391c25d59dc7900" cid="OP025" name="IsAvailable" creation-date="05/30/2023 14:45:20" type="bool" type-id="CSharp.bool" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tvc3607de3728f428fb67b49d035d0c3fe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IsAvailable" />
+                    <tagged-value id="tvdbda504f9ee247d99cc87b1a208d40b6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tve9bf42490fa74988b7823995b254fec2" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvebb02e2bf70847998522e74ced97e496" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="178" />
+                    <tagged-value id="tvae2bc3b5ca514a0f84701660dd2fdea2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="19" />
+                  </tagged-values>
+                </operation>
+                <operation id="o0d3154715b4943749db2818973af5edb900" cid="OP026" name="BorrowBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tva350532e6d6a453aa0047835d53c58e1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowBook" />
+                    <tagged-value id="tvf0e94231abe0441aa148209e53b1c6bc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tv544d3c7b099c455788d06e4d5c4da168" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvab715feb2c2b428fb2e528f5defbb6eb" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="202" />
+                    <tagged-value id="tv50e3bf831f9d42fb89b7ebde450b410c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                  </tagged-values>
+                </operation>
+                <operation id="o8e5f7cb65a594114802d7646ad11fe5b900" cid="OP027" name="ReturnBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="undefined">
+                  <tagged-values>
+                    <tagged-value id="tv680725169e0c40b58a960f53c1911137" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ReturnBook" />
+                    <tagged-value id="tvb08ddeb4b62b4188a363467f261da026" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Book.cs" />
+                    <tagged-value id="tvc2ee1101a0824b89bd5a804ebcc4d72b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5fd809a2f9df4a358aefa5b9692d0dde" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="225" />
+                    <tagged-value id="tv28de537cae8f49f5a3efcd72ace080fc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="f4f4c49f0af24c4795ee745b83ee91ce" cid="PROP011" type="property" name="isBorrowed" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv232ca7e6d345403c97e20bf4d151d417" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="isBorrowed" />
+                <tagged-value id="tvab49e3fb113c454289a81c4b5712dfdb" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv324b316a03544934b8068be5eb8936fb" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tve9c2ffec28524147975782ed131adaba" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv89b60d6c24d4450fbb84548ff2e4ee9b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="129" />
+                <tagged-value id="tvacce8a2653c44548abf6f05427ab3df9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="24" />
+                <tagged-value id="tvb47d823c02514a65baa7c70ec815aa44" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tvd5f45157f70145b7a069bc15280f4d20" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature type="bool" type-id="CSharp.bool" />
+            </item>
+            <item id="5066af479ea0457a8b68eeae57b6ef9a" cid="I001" type="uml-interface-classifier" name="BookFactory" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tvffa46a5eef364154b32e9cb1aa640cfd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv32951d2bd48843258c73c29af09bdd97" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BookFactory" />
+                <tagged-value id="tv1ef06b06498144fd88982f0743632d60" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tvf2e82711d7e9463087fc3194f00cf8bf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookFactory.cs" />
+                <tagged-value id="tv456dee6c9e8b4c4dbe9903d8dcaf160e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv14bd2123203c423da6b31c0e9f815156" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvde9668ae9430499393c27e3e879e49d6" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="138" />
+                <tagged-value id="tv6613732dbd85412a815f654bcdc10272" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="161" />
+                <tagged-value id="tv634662446b2e4fb4a95b5348aac9df3b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="5066af479ea0457a8b68eeae57b6ef9a_interface_c" type="interface" ref="" />
+              </stereotype-instances>
+              <operations>
+                <operation id="of98a2368266c4e819b4d4b27716a0515900" cid="OP019" name="CreateBook" creation-date="05/30/2023 14:45:20" type="Book" type-id="Book" visibility="undefined">
+                  <parameters>
+                    <parameter id="pfb63716a457d4610b3687339c5f4f085" name="title" type="string" type-id="CSharp.string" />
+                    <parameter id="p4845c780b5b440c7835c5db50f2ba8ba" name="author" type="string" type-id="CSharp.string" />
+                    <parameter id="p327a465a1a0c4f34a233ad85c2f174fa" name="genre" type="string" type-id="CSharp.string" />
+                    <parameter id="pc5d4f4bce983466f8b68744d8b1dd63d" name="publisher" type="string" type-id="CSharp.string" />
+                    <parameter id="p3689a15857d14551b6e4ab7900b11146" name="publishedDate" type="DateTime" type-id="CSharp.DateTime" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv8e9582994dbb49838750d18e4a15cb7d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateBook" />
+                    <tagged-value id="tv28567e1e6935497e8136009d7698f2ae" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookFactory.cs" />
+                    <tagged-value id="tvf5b5751bf2e940e895d07ce74968cc3c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv7227e62c76904e878a45a9cd7c3e1882" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="55" />
+                    <tagged-value id="tv67a106d088324ff1b64ed7eea9b6757c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="101" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="8e86b05ec92640c4a40d050962731227" cid="C006" type="class" name="Magazine" creation-date="05/30/2023 14:45:20" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv0d7a20627034492f9421d7341cf0f62d" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv8b626a3dc70b4a3c8556dac61ebacb8e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Magazine" />
+                <tagged-value id="tv7815a9651a23484eb4e2ab56b7c37c66" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv71277ad9629f47cb96695e24f4b0db64" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Magazine.cs" />
+                <tagged-value id="tva7f283c7faa2446886f41a00d87a1923" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv40b055ef93b145b9a5acb7decf046c24" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv10b0320349d44dbaa42f5b9d5cf71ca7" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="397" />
+                <tagged-value id="tv3ff4bfcaaeeb4abdb072fa7939464ef8" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="420" />
+                <tagged-value id="tv1216c841d79943efb35ed59e2c2e1189" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a03ceb8866ff144a9bf3e5a6fdc1839f6899" cid="PROP004" name="issueNumber" creation-date="05/30/2023 14:45:20" property-ref="2c2fe5d33ae148bcb1c4b6b37ea0e141" />
+              </attributes>
+              <operations>
+                <operation id="o81077ba9a9194af680202decc2dbeb19899" cid="OP017" name="Magazine" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p66e8b5ae33bb4755be23abb17e4f1257" name="title" type="string" type-id="CSharp.string" />
+                    <parameter id="p22dc4cb1eade49ae8ea6bde4d0a75fde" name="author" type="string" type-id="CSharp.string" />
+                    <parameter id="p3891ec90b3754067909a607df71c7e92" name="genre" type="string" type-id="CSharp.string" />
+                    <parameter id="p40674b3eddb24d55aaf2d0cfcda0eda9" name="publisher" type="string" type-id="CSharp.string" />
+                    <parameter id="p74203ccac46d4de4bf66b4cc7d29a7dc" name="publishedDate" type="DateTime" type-id="CSharp.DateTime" />
+                    <parameter id="p0bf8124232b54a069688247dd69cad95" name="issueNumber" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvcb677ea98b4340f8b0233b1bdc5d4341" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Magazine" />
+                    <tagged-value id="tv9da18af81f1d498b8ffeb1c0b90821b6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Magazine.cs" />
+                    <tagged-value id="tvbd36d9cbd93844ccac4b3d69a0679864" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9233316a39eb43c08cf38025b190121e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="104" />
+                    <tagged-value id="tve43701a01e2d45258cdba9eacdf91056" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="235" />
+                  </tagged-values>
+                </operation>
+                <operation id="o88b234038da74ca1a7dbe5ef79df9001899" cid="OP018" name="GetIssueNumber" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvbcc754c771294780bb277c4a38136853" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetIssueNumber" />
+                    <tagged-value id="tv770e040da98a429091e3ffe625789786" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Magazine.cs" />
+                    <tagged-value id="tv70979b183b0d4d14b019a2533b618638" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv5b1dcd27ff914edaaa0428e9764d3745" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="345" />
+                    <tagged-value id="tvfb2e4ecbd38e4a11a002f105cf2e0952" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="70" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return issueNumber;
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="26afcb15837c43fa9cf03ecb4d6ab629" cid="PROP014" type="property" name="publisher" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv283a8ce5f24b4feda5845c5ef389a9b5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="publisher" />
+                <tagged-value id="tvf078102bdb12423fa0532b52ce332cde" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv148628793b4f4013940f10aaf5b56dc8" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tv1a1969a7478c4ac495ef0de6e053adcc" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv8aa733b79b6643aca49e663ddc32935a" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="241" />
+                <tagged-value id="tv758ee5053079468a9890d5f85ed6efb2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="34" />
+                <tagged-value id="tv6c1d49030aa745ada79cd4f5cc253ad2" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tva8b8119b242b4852ba96584c9f310d8b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="string" type-id="CSharp.string" />
+            </item>
+            <item id="64632b58b2dd46b3a227f301663a83b2" cid="PROP015" type="property" name="title" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvd91cb95f7efc4d3f8473d3025bda3769" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="title" />
+                <tagged-value id="tv8b31e3f6302c4917918248089bd40c69" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv88ab766d5da44863bb955abc3d56a339" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tv75160d9a92124cf1a3467909f1cf7c32" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv99f89a5224834dd9a7fd3360bf55b61c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="280" />
+                <tagged-value id="tvd08e4e78dc3b436b841ec3ece40a70a9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="30" />
+                <tagged-value id="tv749f9d3c4e4f44eea75fd8ffc37a7b3d" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tv85d139fcb7e4449bb9da95934de8aab0" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="string" type-id="CSharp.string" />
+            </item>
+            <item id="d097add724974b5f95aeafe3726b8479" cid="I003" type="uml-interface-classifier" name="Observer" creation-date="05/30/2023 14:45:20" visibility="public">
+              <stereotypes>
+                <stereotype name="interface" />
+              </stereotypes>
+              <tagged-values>
+                <tagged-value id="tv497e0287471f409baa01a9c280f0e0b5" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv16e69c3e6e544e5f87fed880f3144683" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Observer" />
+                <tagged-value id="tvfed342465b084d58b16fa7d34baaf0bf" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv5a3b7d37435847e1ac3226f7c27d5eb6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Observer.cs" />
+                <tagged-value id="tv68f8a3ebe7e14fdc8552af45aba4f00f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv6cd138509f334e5fabc729f1d98eeac1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tvdad78ef5cadc4c0783b3c8bb44191645" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="82" />
+                <tagged-value id="tvb3c9f8df27824f43998bbbecc342eee5" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="102" />
+                <tagged-value id="tv821a02d8b8d74eebaa0b3912e73ceb66" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <stereotype-instances>
+                <stereotype id="d097add724974b5f95aeafe3726b8479_interface_c" type="interface" ref="" />
+              </stereotype-instances>
+              <owned-items />
+              <attributes>
+                <attribute id="a0b086d8a72ed4ed3a7717d5af2bbacb6900" cid="PROP005" name="Name" creation-date="05/30/2023 14:45:20" property-ref="0500d754902e4898a547f2b52565c226" />
+              </attributes>
+              <operations>
+                <operation id="occ70ff68ef644b52b1c1c0d8791ff361900" cid="OP029" name="Update" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="undefined">
+                  <parameters>
+                    <parameter id="p7590a6be95ff4e348e5de99d5a4a2d41" name="book" type="Book" type-id="Book" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv0f33007ea3684590b4f8191977f24a29" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Update" />
+                    <tagged-value id="tv6a5ab0a8977547319c0eba547caf92bf" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Observer.cs" />
+                    <tagged-value id="tvf27ce6cd45034829b4cced37f677c27d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tvd4029230f285481fa4aea0b3d7160191" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="77" />
+                    <tagged-value id="tv37db2815772c4001871d5dfd1fde0c78" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="23" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="0f8d9604dd674ea2a898876a920ebbaa" cid="C010" type="class" name="Borrower" creation-date="05/30/2023 14:45:20" visibility="public" is-abstract="true">
+              <tagged-values>
+                <tagged-value id="tvf32860b184874367b7d965cb5b110447" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvb21888f73a4641dba3698d7a80ee1121" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Borrower" />
+                <tagged-value id="tvbedf702b77fa4cceb6c307a4c8f1cb2c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv00a9920a7a224200aa138fcba1ca825f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Borrower.cs" />
+                <tagged-value id="tv79a3803c38ad485da26a8d439b0611ac" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv80ae2a6926be42afbc6f70a2a58320ee" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tv72c76ac6e61b41a5adb58a92ac14e382" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="248" />
+                <tagged-value id="tv478a709b96bc4258b2fb2ad1109c2d3b" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="268" />
+                <tagged-value id="tvbf1c46e9b04d4f9494a39ffc83c3dae4" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a07335f72220f46d3b38f11cecc22f3af901" cid="PROP007" name="Id" creation-date="05/30/2023 14:45:20" property-ref="46ee1eef6bba4919b9e4210c707777e9" />
+                <attribute id="a825a34256825436cb1c633e286b323f7901" cid="PROP008" name="Name" creation-date="05/30/2023 14:45:20" property-ref="cf1ee74dea854f11a7b0cf11c96e5dec" />
+              </attributes>
+              <operations>
+                <operation id="oc48e48df88da4008ab53e58a240e3961901" cid="OP033" name="Borrower" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pee381cb9089b4d9c8c0d46eb380aed98" name="id" type="string" type-id="CSharp.string" />
+                    <parameter id="pba9bfac4b1bb4391b033891c13b6bab5" name="name" type="string" type-id="CSharp.string" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv4eec41bf788240978910d837ddc8c59e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Borrower" />
+                    <tagged-value id="tve55fa81450254850990503595744b425" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Borrower.cs" />
+                    <tagged-value id="tv670efe7680a5481a85e208f42f3cf8f2" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv114a8c68377f491ebe1d355b70b5f238" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="68" />
+                    <tagged-value id="tv1f0a43069b1046adbabb48b66a6bc45d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="89" />
+                  </tagged-values>
+                </operation>
+                <operation id="o8ba19f34a0164693a71efc1dc17187d1901" cid="OP034" name="Update" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public" abstract="true">
+                  <parameters>
+                    <parameter id="p96f9018cefaf42fabdc664c63cf2df48" name="book" type="Book" type-id="Book" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tve2260de146cf40c7b3ce3b9de6da1c91" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Update" />
+                    <tagged-value id="tv34d5b6fb674d4579bc7dafd968f9987b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\Borrower.cs" />
+                    <tagged-value id="tv0b4d4c62478c48e18c60de75c6b093d0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9fc5f812fbf64287bd4b18e2bf555b6f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="227" />
+                    <tagged-value id="tv98327254c3894e5f9d8098ae5b271d3a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="39" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="ac9ab4542ad345958d691099d159421c" cid="PROP009" type="property" name="author" owner="06d45ce450fc434bbd4211a19d2973e7" creation-date="05/30/2023 14:45:20" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv024416b2e441463696389aef7cdb2985" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="author" />
+                <tagged-value id="tvba2a61f23e8a4f0081689cf39f477bfa" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv8e94f0c0ab0f4521829e94cf0b6364f3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\LibraryBook.cs" />
+                <tagged-value id="tv4537bba5a1ec4fc09f206ead44008cbb" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tv87f06b17e6004653850f2ab9096f6d06" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="58" />
+                <tagged-value id="tv6ebd645553bc48d3a62c1cbe97747d15" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="31" />
+                <tagged-value id="tvda5c4bd366e04233a582deca847c0d85" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1819" />
+                <tagged-value id="tv0785caa8829f4b689a86b8696e25975c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <structural-feature read-only="true" type="string" type-id="CSharp.string" />
+            </item>
+            <item id="398de08034354f1f91b26ec0d53b0c41" cid="C005" type="class" name="BookDecorator" creation-date="05/30/2023 14:45:20" visibility="public" is-abstract="true">
+              <tagged-values>
+                <tagged-value id="tv3be3f2ae182d421294c2105a88c9edfd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvff5507d5ddee49fcaec3378378a8a772" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BookDecorator" />
+                <tagged-value id="tv0dca80821db047f88fcfb68e07f4c1a5" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pbb46a9b2d8e34e21bf25559eecaa6977_640953323" />
+                <tagged-value id="tv100c779ae0a845c48ccde7d181c3373b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                <tagged-value id="tvd4469d9bd4e04275a13bd25681125ede" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                <tagged-value id="tvdd8186e486a24231a1add92c8fd9c76b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="20" />
+                <tagged-value id="tve068810f73df4c30b597f0cdaf966efd" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="774" />
+                <tagged-value id="tv11376b52b4864cb2837d8cf8dc815aef" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="797" />
+                <tagged-value id="tv252c9a6906a349c3b3e2b1dbcce90c3e" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="03/30/2023 10:56:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="ac289121e82f14addbf90f25ca1e36569899" cid="PROP003" name="book" creation-date="05/30/2023 14:45:20" property-ref="96da3f811be64f04ad9b4a7d6730cc8c" />
+              </attributes>
+              <operations>
+                <operation id="o06d28b4ee40945daa774b391a8b699ff899" cid="OP008" name="BookDecorator" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pd639586d8830483da6a92b7eb0335f7f" name="book" type="Book" type-id="Book" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv6721b19335e242bc830e72034ac9d047" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BookDecorator" />
+                    <tagged-value id="tv7e81cc666e064e11b0f176a667d4ad1e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tv16c592175d584e7b9623032720d417e3" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9fc2b303dc7d4a95bd87d8940238a6a6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="93" />
+                    <tagged-value id="tv1f78bb9ca87246acaecd6409661e61d3" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="69" />
+                  </tagged-values>
+                </operation>
+                <operation id="o35bee2c9a2e24cfc956ddf6b640868a3899" cid="OP009" name="GetTitle" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvb90dd4c3647340d8ba9df20f9f2d012a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetTitle" />
+                    <tagged-value id="tv178d1a564a6d4970a757031d3e34617b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tvd9eb773e50b446928dcb3a415275c615" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9c7224ce011a42059f09b9bfe9c15cda" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="168" />
+                    <tagged-value id="tvb34135a97a65480f8116491328cdb002" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="68" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.GetTitle();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o7c7cc51afc774c609a6f8fdc62f4fcad899" cid="OP010" name="GetAuthor" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv02da81bedfb64e9d8dfe296578ba3532" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetAuthor" />
+                    <tagged-value id="tv7768a51f62fe4293a4901509786897e5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tve0310816496741c6a2edbfdf062f9478" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv9d073b9670974888b112cb8406e987a7" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="242" />
+                    <tagged-value id="tv43a0cad0521440db845734273dcf6ca8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="70" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.GetAuthor();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oc70a6200b1eb4e1db5ba83353cc810be899" cid="OP011" name="GetGenre" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv4447f60f6284470faa2574e7b19260b0" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetGenre" />
+                    <tagged-value id="tvfd838326163746a9821268cdb71f1741" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tv31499f9b246246dbbdcd4874ca2d1713" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tva14f7e9854d14d51a98644f41761c044" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="318" />
+                    <tagged-value id="tvb028bd9c36a543f58e53807bfbaaac07" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="68" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.GetGenre();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o0540d77bac6942259f8e5f8d61514528899" cid="OP012" name="GetPublisher" creation-date="05/30/2023 14:45:20" type="string" type-id="CSharp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv101e824f80264d86a8fbb8f31985cc5e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublisher" />
+                    <tagged-value id="tvf0ca1a9db5964266b70e0fabeae240f8" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tvc8b045cb7d984feaa52780005d779fbc" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv6ded4717417d41e4aa4171ccaa2dc2d8" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="392" />
+                    <tagged-value id="tv65a2afce77754b13aea092bc1885fecb" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="76" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.GetPublisher();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o5628c28cba6c45cc9a46241159265bfa899" cid="OP013" name="GetPublishedDate" creation-date="05/30/2023 14:45:20" type="DateTime" type-id="CSharp.DateTime" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv85c12968add047ca81b7558cf4f651e5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPublishedDate" />
+                    <tagged-value id="tv63e81445e9924c4f8ebf7f0bb42a5886" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tv68af135ae52d4ed4a2db8a980eda3861" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv4a0f5778004d48eba7e9e7d6413a18d3" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="474" />
+                    <tagged-value id="tv7ad302680cb540479e871748711b76f3" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="86" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.GetPublishedDate();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="odd892776a6ed4b369df37965fdc050e5899" cid="OP014" name="IsAvailable" creation-date="05/30/2023 14:45:20" type="bool" type-id="CSharp.bool" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvce63cb0db78b44d584863e4117e4de2a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IsAvailable" />
+                    <tagged-value id="tv018593a572584a84a5e96a5ea5ac853a" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tvff3c85e12b3a49cb889d853615e74a30" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv2f3db426655143648a79e8a19b5e393b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="566" />
+                    <tagged-value id="tv53d4d8c70e014a1c9b12d21771d9e03b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="72" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        return book.IsAvailable();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o1940daaf14074ccf815747296ab8d5d4899" cid="OP015" name="BorrowBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public" virtual="true">
+                  <tagged-values>
+                    <tagged-value id="tv2a308921f0284d38ac05072797c5292e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BorrowBook" />
+                    <tagged-value id="tv4eaedf2b09284b3bbb468a11237c3b2c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tv50772712859c47b59d27d76bd5eeb23c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tve519a16d84324bd69f3ec4f0fddb7648" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="644" />
+                    <tagged-value id="tv968bedabb5f240289494245013e82e52" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="71" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        book.BorrowBook();
+    </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oe2343ca3974c4aa1ad77764d4c49f6b5899" cid="OP016" name="ReturnBook" creation-date="05/30/2023 14:45:20" type="" type-id="" visibility="public" virtual="true">
+                  <tagged-values>
+                    <tagged-value id="tv1e7ed3681976486f805bb75ec6aff2b5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ReturnBook" />
+                    <tagged-value id="tv9a8e0ac1752745b4ab973b2d1a283f48" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\rstob\Downloads\DesignPatterns-main\DesignPatterns-main\Library\Library\BookDecorator.cs" />
+                    <tagged-value id="tva6d54592e2894f94b8e66ae503757c9a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+                    <tagged-value id="tv887b14a0b4704538a6fdf89f498fa8a8" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="721" />
+                    <tagged-value id="tvb4002b9f98394bfbbcbfb243e091f7e2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="71" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="CSharp">
+        book.ReturnBook();
+    </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+          </abstract-items>
+          <sub-models />
+          <diagram type="uml-class" id="p7c31d7c3d22d4338b2b375abfb051084_543162263" name="" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" namespace="" view-location="-602,206" zoom="0.7">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author>roy stobbe</author>
+              </authors>
+              <description />
+              <creation-date>05/30/2023 14:45:20</creation-date>
+              <change-date>05/30/2023 14:52:50</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <tagged-values>
+              <tagged-value id="tv75cb5c1e84944d7e9d3317951387634f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+            </tagged-values>
+            <abstract-items>
+              <item id="ff020acdc568406fb3a8ae1748126787" cid="REA009" type="realization" creator="" creation-date="05/30/2023 14:50:22" from="398de08034354f1f91b26ec0d53b0c41" to="ff77e404b8d44e9182890274fb6cf21b" visibility="package" />
+              <item id="7488b1071c48428e8d866d8bec902122" cid="GNR006" type="generalization" creator="" creation-date="05/30/2023 14:51:56" from="5066af479ea0457a8b68eeae57b6ef9a" to="ff77e404b8d44e9182890274fb6cf21b" visibility="package" />
+              <item id="5775734879384a9d8221b576c997a78b" cid="REL002" type="relationship" creator="" creation-date="05/30/2023 14:52:50" from="d097add724974b5f95aeafe3726b8479" to="06d45ce450fc434bbd4211a19d2973e7" visibility="package">
+                <owned-items />
+                <relation from="d097add724974b5f95aeafe3726b8479" to="06d45ce450fc434bbd4211a19d2973e7" derived="false">
+                  <start-role id="umlar-8b7b9103-b65d-4016-9c4a-f7e3ea658a61" name="" navigability="" association-type="association" visibility="private" property-ref="c72ce1aed22046e3ad167591738dc893" />
+                  <end-role id="umlar-b1f49c3e-484c-46f0-ba02-418ab35af1c0" name="" navigability="" association-type="association" visibility="private" property-ref="ff013fcc47214af99093d058c3e83ce4" />
+                </relation>
+              </item>
+              <item id="97c8f1d44d754984874504f5f7a2009b" cid="GNR004" type="generalization" creator="" creation-date="05/30/2023 14:50:59" from="e1b7a608268b428198471d25b0d2409e" to="398de08034354f1f91b26ec0d53b0c41" visibility="package" />
+              <item id="120bf6a260f347b0a4cf598a1416847e" cid="REA011" type="realization" creator="" creation-date="05/30/2023 14:51:43" from="06d45ce450fc434bbd4211a19d2973e7" to="ff77e404b8d44e9182890274fb6cf21b" visibility="package" />
+              <item id="6c9a59fecba340eda1228c640256aacf" cid="ELEM002" type="usage" creator="" creation-date="05/30/2023 14:49:19" from="55f2ebe03b504836a05ed44ec0f491a2" to="5066af479ea0457a8b68eeae57b6ef9a" visibility="package">
+                <stereotypes>
+                  <stereotype name="use" />
+                </stereotypes>
+                <stereotype-instances>
+                  <stereotype id="6c9a59fecba340eda1228c640256aacf_use_c" type="use" ref="" />
+                </stereotype-instances>
+              </item>
+              <item id="eb19aed1086d40ab9f76a02d341c86e9" cid="GNR005" type="generalization" creator="" creation-date="05/30/2023 14:51:04" from="817652300f2d4e76877055f393aec4b9" to="398de08034354f1f91b26ec0d53b0c41" visibility="package" />
+              <item id="e7fef459f4d6465888ac4bf2db5848e0" cid="ELEM001" type="usage" creator="" creation-date="05/30/2023 14:49:09" from="1e56ead40c0c431eaf73dc6abc0a6c99" to="5066af479ea0457a8b68eeae57b6ef9a" visibility="package">
+                <stereotypes>
+                  <stereotype name="use" />
+                </stereotypes>
+                <stereotype-instances>
+                  <stereotype id="e7fef459f4d6465888ac4bf2db5848e0_use_c" type="use" ref="" />
+                </stereotype-instances>
+              </item>
+            </abstract-items>
+            <layer id="d61ffb94572947ada25a77be806e3162" name="Default" visible="true" enabled="true" locked="false">
+              <item id="0f8d9604dd674ea2a898876a920ebbaa" iid="2a383f0ab77147f59755256bfb42c77f" creation-date="05/30/2023 14:45:20" order-index="1" type="entity">
+                <layout ax="-400" ay="955.5" awidth="281" aheight="117" x="-400" y="955.5" width="281" height="117" />
+                <classifier />
+                <class />
+              </item>
+              <item id="55f2ebe03b504836a05ed44ec0f491a2" iid="a7899a0c7ba9438dacc49457ca4cf530" creation-date="05/30/2023 14:45:20" order-index="2" type="entity">
+                <layout ax="934.5" ay="753" awidth="347" aheight="78" x="934.5" y="753" width="347" height="78" />
+                <classifier />
+                <class />
+              </item>
+              <item id="817652300f2d4e76877055f393aec4b9" iid="ec7f6273b186496ca6e9b4d66070d8e5" creation-date="05/30/2023 14:45:20" order-index="5" type="entity">
+                <layout ax="1778.5" ay="734" awidth="339" aheight="116" x="1778.5" y="734" width="339" height="116" />
+                <classifier />
+                <class />
+              </item>
+              <item id="82771cd17fa04186b963c6200f722c92" iid="a626cbb0ecca468ebb9e1034496c2107" creation-date="05/30/2023 14:45:20" order-index="6" type="entity">
+                <layout ax="-215" ay="1267.5" awidth="232" aheight="78" x="-215" y="1267.5" width="232" height="78" rotation-center="0,-10" />
+                <classifier />
+                <class />
+              </item>
+              <item id="aa3dda6d9c944282a7ddce4810f7366e" iid="af39b5ec6d934833a14cfbb7bcd5f4b4" creation-date="05/30/2023 14:45:20" order-index="7" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="595" y1="753" x2="594" y2="639" start-border-pos="0.125358166189112" end-border-pos="0.625352112676056" start-local-pos="175" end-local-pos="177" name-position="0,20">
+                  <points>
+                    <point x="595" y="753" />
+                    <point x="595" y="727" />
+                    <point x="594.5" y="705" />
+                    <point x="594" y="639" />
+                  </points>
+                </layout>
+                <relation from="8e86b05ec92640c4a40d050962731227" from-iid="79676df340824884af1a375d582eb466" to="06d45ce450fc434bbd4211a19d2973e7" to-iid="3b1286de2a4c4e8b9ce449bc067f4efc" />
+              </item>
+              <item id="ff77e404b8d44e9182890274fb6cf21b" iid="98972e039ce645aa88e2dd4571791d32" creation-date="05/30/2023 14:45:20" order-index="8" type="entity">
+                <layout ax="1170" ay="8" awidth="192" aheight="211" x="1170" y="8" width="192" height="211" />
+                <classifier />
+                <class />
+              </item>
+              <item id="e1b7a608268b428198471d25b0d2409e" iid="2951feef9e7c4bb18a8dab7b697b8365" creation-date="05/30/2023 14:45:20" order-index="10" type="entity">
+                <layout ax="2289.5" ay="467" awidth="318" aheight="116" x="2289.5" y="467" width="318" height="116" />
+                <classifier />
+                <class />
+              </item>
+              <item id="1e56ead40c0c431eaf73dc6abc0a6c99" iid="95498123318a43998c86583596637cdc" creation-date="05/30/2023 14:45:20" order-index="11" type="entity">
+                <layout ax="1352" ay="744.5" awidth="356" aheight="95" x="1352" y="744.5" width="356" height="95" />
+                <classifier />
+                <class />
+              </item>
+              <item id="5066af479ea0457a8b68eeae57b6ef9a" iid="302a45ed1c4543b39c1e4ba5e78901a3" creation-date="05/30/2023 14:45:20" order-index="12" type="entity">
+                <layout ax="1064" ay="543" awidth="334" aheight="96" x="1064" y="543" width="334" height="96" />
+                <classifier />
+                <class />
+              </item>
+              <item id="aa8d61d5e17f4ad6b9ff4fa2bebfac8c" iid="a1f12fd52bb34ad88ca6d3a7d8308636" creation-date="05/30/2023 14:45:20" order-index="13" type="entity">
+                <layout ax="-530.5" ay="1267" awidth="273" aheight="79" x="-530.5" y="1267" width="273" height="79" />
+                <classifier />
+                <class />
+              </item>
+              <item id="3bc500f812514b539c9e8b762e9dff5d" iid="6da2e12d2cf046708bca969be2fd05ce" creation-date="05/30/2023 14:45:20" order-index="14" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-260" y1="956" x2="44" y2="754" start-border-pos="0.124555160142349" end-border-pos="0.625" start-local-pos="140" end-local-pos="79" name-position="0,20">
+                  <points>
+                    <point x="-260" y="956" />
+                    <point x="-65" y="842" />
+                    <point x="44" y="754" />
+                  </points>
+                </layout>
+                <relation from="0f8d9604dd674ea2a898876a920ebbaa" from-iid="2a383f0ab77147f59755256bfb42c77f" to="d097add724974b5f95aeafe3726b8479" to-iid="28799cbbf931429ab08a712c6f22ee1e" />
+              </item>
+              <item id="8e86b05ec92640c4a40d050962731227" iid="79676df340824884af1a375d582eb466" creation-date="05/30/2023 14:45:20" order-index="15" type="entity">
+                <layout ax="420" ay="753" awidth="349" aheight="133" x="420" y="753" width="349" height="133" />
+                <classifier />
+                <class />
+              </item>
+              <item id="06d45ce450fc434bbd4211a19d2973e7" iid="3b1286de2a4c4e8b9ce449bc067f4efc" creation-date="05/30/2023 14:45:20" order-index="16" type="entity">
+                <layout ax="417" ay="219" awidth="355" aheight="420" x="417" y="219" width="355" height="420" />
+                <classifier />
+                <class />
+              </item>
+              <item id="398de08034354f1f91b26ec0d53b0c41" iid="f6b79ab6c0f04b91a509784ca03c07ee" creation-date="05/30/2023 14:45:20" order-index="17" type="entity">
+                <layout ax="1869.5" ay="342" awidth="248" aheight="231" x="1869.5" y="342" width="248" height="231" />
+                <classifier />
+                <class />
+              </item>
+              <item id="d097add724974b5f95aeafe3726b8479" iid="28799cbbf931429ab08a712c6f22ee1e" creation-date="05/30/2023 14:45:20" order-index="19" type="entity">
+                <layout ax="-35" ay="656.5" awidth="158" aheight="97" x="-35" y="656.5" width="158" height="97" />
+                <classifier />
+                <class />
+              </item>
+              <item id="ffe0756e5b734fa3b699d85fef7523e5" iid="2a3e9090fcd448448e2396e4e58e78ff" creation-date="05/30/2023 14:45:20" order-index="23" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-99" y1="1268" x2="44" y2="754" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="116" end-local-pos="79" name-position="0,20">
+                  <points>
+                    <point x="-99" y="1268" />
+                    <point x="185" y="841" />
+                    <point x="44" y="754" />
+                  </points>
+                </layout>
+                <relation from="82771cd17fa04186b963c6200f722c92" from-iid="a626cbb0ecca468ebb9e1034496c2107" to="d097add724974b5f95aeafe3726b8479" to-iid="28799cbbf931429ab08a712c6f22ee1e" />
+              </item>
+              <item id="eca8970142d448178969360b2d788115" iid="1ba09d1e9669486ea0b46701e6d72ae6" creation-date="05/30/2023 14:45:20" order-index="24" type="relation">
+                <layout line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-394" y1="1267" x2="44" y2="754" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="136.5" end-local-pos="79" name-position="0,20">
+                  <points>
+                    <point x="-394" y="1267" />
+                    <point x="44" y="779.5" />
+                    <point x="44" y="754" />
+                  </points>
+                </layout>
+                <relation from="aa8d61d5e17f4ad6b9ff4fa2bebfac8c" from-iid="a1f12fd52bb34ad88ca6d3a7d8308636" to="d097add724974b5f95aeafe3726b8479" to-iid="28799cbbf931429ab08a712c6f22ee1e" />
+              </item>
+              <item id="e7fef459f4d6465888ac4bf2db5848e0" iid="9a3914dcfdde415c80c13582803e5adb" creation-date="05/30/2023 14:49:09" order-index="25" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1541" y1="744" x2="1353" y2="639" start-border-pos="0.132724719101124" end-border-pos="0.533682634730539" start-local-pos="189" end-local-pos="289" name-position="0,20">
+                  <points>
+                    <point x="1541" y="744" />
+                    <point x="1353" y="639" />
+                  </points>
+                </layout>
+                <relation from="1e56ead40c0c431eaf73dc6abc0a6c99" from-iid="95498123318a43998c86583596637cdc" to="5066af479ea0457a8b68eeae57b6ef9a" to-iid="302a45ed1c4543b39c1e4ba5e78901a3" />
+              </item>
+              <item id="6c9a59fecba340eda1228c640256aacf" iid="cb072f578beb4529bdc159b0d21301f8" creation-date="05/30/2023 14:49:19" order-index="26" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1118" y1="753" x2="1176" y2="639" start-border-pos="0.131844380403458" end-border-pos="0.666167664670659" start-local-pos="183" end-local-pos="112" name-position="0,20">
+                  <points>
+                    <point x="1118" y="753" />
+                    <point x="1176" y="639" />
+                  </points>
+                </layout>
+                <relation from="55f2ebe03b504836a05ed44ec0f491a2" from-iid="a7899a0c7ba9438dacc49457ca4cf530" to="5066af479ea0457a8b68eeae57b6ef9a" to-iid="302a45ed1c4543b39c1e4ba5e78901a3" />
+              </item>
+              <item id="ff020acdc568406fb3a8ae1748126787" iid="db6e5caa702346359dce4c6708d9feb1" creation-date="05/30/2023 14:50:22" order-index="28" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="1976" y1="342" x2="1362" y2="145" start-border-pos="0.107358870967742" end-border-pos="0.41211868575399" start-local-pos="106.5" name-position="0,20">
+                  <points>
+                    <point x="1976" y="342" />
+                    <point x="1362" y="145" />
+                  </points>
+                </layout>
+                <relation from="398de08034354f1f91b26ec0d53b0c41" from-iid="f6b79ab6c0f04b91a509784ca03c07ee" to="ff77e404b8d44e9182890274fb6cf21b" to-iid="98972e039ce645aa88e2dd4571791d32" />
+              </item>
+              <item id="97c8f1d44d754984874504f5f7a2009b" iid="5cb36bdff76e4ec583161800d1d09bf6" creation-date="05/30/2023 14:50:59" order-index="29" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="2432" y1="467" x2="2118" y2="461" start-border-pos="0.112028301886792" end-border-pos="0.378276412105147" start-local-pos="142.5" name-position="0,20">
+                  <points>
+                    <point x="2432" y="467" />
+                    <point x="2118" y="461" />
+                  </points>
+                </layout>
+                <relation from="e1b7a608268b428198471d25b0d2409e" from-iid="2951feef9e7c4bb18a8dab7b697b8365" to="398de08034354f1f91b26ec0d53b0c41" to-iid="f6b79ab6c0f04b91a509784ca03c07ee" />
+              </item>
+              <item id="eb19aed1086d40ab9f76a02d341c86e9" iid="031f43b485844330bc44d8917115b27d" creation-date="05/30/2023 14:51:04" order-index="30" type="relation">
+                <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1947" y1="734" x2="1945" y2="573" start-border-pos="0.124414044495529" end-border-pos="0.673479510891822" end-local-pos="83.5" name-position="0,20">
+                  <points>
+                    <point x="1947" y="734" />
+                    <point x="1945" y="573" />
+                  </points>
+                </layout>
+                <relation from="817652300f2d4e76877055f393aec4b9" from-iid="ec7f6273b186496ca6e9b4d66070d8e5" to="398de08034354f1f91b26ec0d53b0c41" to-iid="f6b79ab6c0f04b91a509784ca03c07ee" />
+              </item>
+              <item id="120bf6a260f347b0a4cf598a1416847e" iid="820f65d1a5084d52b0ab3aaead55a0af" creation-date="05/30/2023 14:51:43" order-index="31" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="654" y1="219" x2="1170" y2="156" start-border-pos="0.166901408450704" end-border-pos="0.824644549763033" start-local-pos="237" end-local-pos="148" name-position="0,20">
+                  <points>
+                    <point x="654" y="219" />
+                    <point x="1170" y="156" />
+                  </points>
+                </layout>
+                <relation from="06d45ce450fc434bbd4211a19d2973e7" from-iid="3b1286de2a4c4e8b9ce449bc067f4efc" to="ff77e404b8d44e9182890274fb6cf21b" to-iid="98972e039ce645aa88e2dd4571791d32" />
+              </item>
+              <item id="7488b1071c48428e8d866d8bec902122" iid="269bdb388b194cc0b685b7b7e258162d" creation-date="05/30/2023 14:51:56" order-index="32" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1276" y1="543" x2="1277" y2="219" start-border-pos="0.158682634730539" end-border-pos="0.61018164952596" start-local-pos="212" end-local-pos="104" name-position="0,20">
+                  <points>
+                    <point x="1276" y="543" />
+                    <point x="1277" y="219" />
+                  </points>
+                </layout>
+                <relation from="5066af479ea0457a8b68eeae57b6ef9a" from-iid="302a45ed1c4543b39c1e4ba5e78901a3" to="ff77e404b8d44e9182890274fb6cf21b" to-iid="98972e039ce645aa88e2dd4571791d32" />
+              </item>
+              <item id="5775734879384a9d8221b576c997a78b" iid="509efbbb0cb24bfa8ba07c38a3831c4c" creation-date="05/30/2023 14:52:50" order-index="33" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="96" y1="656" x2="417" y2="568" start-border-pos="0.207278481012658" end-border-pos="0.791964285714286" start-local-pos="131" end-local-pos="349" name-position="0,20">
+                  <points>
+                    <point x="96" y="656" />
+                    <point x="417" y="568" />
+                  </points>
+                </layout>
+                <relation from="d097add724974b5f95aeafe3726b8479" from-iid="28799cbbf931429ab08a712c6f22ee1e" from-field="d097add724974b5f95aeafe3726b8479_interface" to="06d45ce450fc434bbd4211a19d2973e7" to-iid="3b1286de2a4c4e8b9ce449bc067f4efc" to-field="o3ec653af07074192905c2a651b98890e905" />
+              </item>
+            </layer>
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="pccf08b7dbbcd4981a718d395b356830a_888042695" name="Packages" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author>roy stobbe</author>
+          </authors>
+          <description />
+          <creation-date>05/30/2023 14:45:20</creation-date>
+          <change-date>05/30/2023 14:45:20</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tv2d97ddfda5dd41c0b7776b0878c8588f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+        </tagged-values>
+        <abstract-items />
+        <layer id="2b440cff35694f76ac0c5441bcaf2bde" name="Default" visible="true" enabled="true" locked="false">
+          <item id="7402110c8c0e4e10bcbec71bff3149c7" iid="ead468fe169744be98eaa521f6150f20" creation-date="05/30/2023 14:45:20" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="84" aheight="56" x="0" y="0" width="84" height="56" expanded="-20,0,84,56" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
